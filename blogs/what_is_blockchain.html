@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Aditya Nagar</title>
+    <meta charset="utf-8" />
+	<link rel="icon" href="../assets/logo_file.png"/>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="../assets/css/main.css" />
+  </head>
+  <body class="single is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper">
+      <!-- Header -->
+      <header id="header">
+        <h1><a href="../index.html">Aditya Nagar</a></h1>
+        <nav class="links">
+          <ul>
+            <li><a href="#">New Articles</a></li>
+            <li><a href="#">Contact Me</a></li>
+            <li><a href="#">About Me</a></li>
+            <li><a href="#">My Works</a></li>
+          </ul>
+        </nav>
+        <nav class="main">
+          <ul>
+            <li class="search">
+              <a class="fa-search" href="#search">Search</a>
+              <form id="search" method="get" action="#">
+                <input type="text" name="query" placeholder="Search" />
+              </form>
+            </li>
+            <li class="menu">
+              <a class="fa-bars" href="#menu">Menu</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <!-- Menu -->
+      <section id="menu">
+        <!-- Search -->
+        <section>
+          <form class="search" method="get" action="#">
+            <input type="text" name="query" placeholder="Search" />
+          </form>
+        </section>
+
+        <!-- Links -->
+        <section>
+          <ul class="links">
+            <li>
+              <a href="#">
+                <h3>What is Blockchain?</h3>
+                <p>A Blockchain is a DATABASE and a NETWORK</p>
+              </a>
+            </li>
+          </ul>
+        </section>
+
+        <!-- Actions -->
+        <section>
+          <ul class="actions stacked">
+            <li><a href="#" class="button large fit">Log In</a></li>
+          </ul>
+        </section>
+      </section>
+
+      <!-- Main -->
+      <div id="main">
+        <!-- Post -->
+        <article class="post">
+          <header>
+            <div class="title">
+              <h2><a href="">what is Blockchain? </a></h2>
+              <p>A Blockchain is a DATABASE and a NETWORK</p>
+            </div>
+            <div class="meta">
+              <time class="published" datetime="2021-08-25"
+                >August 25, 2021</time
+              >
+              <a href="#" class="author"
+                ><span class="name">Aditya Nagar</span
+                ><img src="images/avatar.jpg" alt=""
+              /></a>
+            </div>
+          </header>
+          <p>
+            A standard WebApp is quite simple as we have a client and a server,
+            where a client contacts the server and vice versa. But with
+            Blockchain, we have a decentralized structure (DAPP) , where there
+            are various nodes instead of a single server, i.e. the data is
+            distributed across every device connected to the blockchain
+          </p>
+          <p>
+            Blockchain is a <strong>Peer-2-Peer network</strong> of nodes that talk to one
+            another. Each node gets a copy of the data shared across the
+            blockchain. All this data is bundle in a “box” called Blocks, that
+            is chained together to create the <a href="#"><strong>Public Ledger</strong></a>.
+          </p>
+		  <span> <img src="../assets/images/Blockchain.svg"/> <p>Blockchain formation. The main chain (black) consists of the longest series of blocks from the genesis block (green) to the current block. Orphan blocks (purple) exist outside of the main chain.(Source: Wikipedia) </p> </span>
+          <p>
+            The “blocks" are linked together using cryptography. Every block
+            contain a Cryptographic Hash of the block, a Timestamp and
+            Transaction Data. As blocks each contain information about the block
+            previous to it, they form a chain, with each additional block
+            reinforcing the ones before it, making it resilient to changes once
+            data has been recorded. Timestamp proves that the transaction data
+            existed when the block was published in order to get into its hash
+            All the nodes work together, in order to make the data in the public
+            ledger secure and unchanged
+          </p>
+          <footer>
+            <ul class="stats">
+              <li><a href="#">General</a></li>
+              <li><a href="#" class="icon solid fa-heart">0</a></li>
+              <li><a href="#" class="icon solid fa-comment">0</a></li>
+            </ul>
+          </footer>
+        </article>
+      </div>
+
+      <!-- Footer -->
+      <section id="footer">
+        <ul class="icons">
+          <li>
+            <a href="#" class="icon brands fa-twitter"
+              ><span class="label">Twitter</span></a
+            >
+          </li>
+          <li>
+            <a href="#" class="icon brands fa-facebook-f"
+              ><span class="label">Facebook</span></a
+            >
+          </li>
+          <li>
+            <a href="#" class="icon brands fa-instagram"
+              ><span class="label">Instagram</span></a
+            >
+          </li>
+          <li>
+            <a href="#" class="icon solid fa-rss"
+              ><span class="label">RSS</span></a
+            >
+          </li>
+          <li>
+            <a href="#" class="icon solid fa-envelope"
+              ><span class="label">Email</span></a
+            >
+          </li>
+        </ul>
+        <p class="copyright">
+          &copy; Untitled. Design: <a href="http://html5up.net">HTML5 UP</a>.
+          Images: <a href="http://unsplash.com">Unsplash</a>.
+        </p>
+      </section>
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
