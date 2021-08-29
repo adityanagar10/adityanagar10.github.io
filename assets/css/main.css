@@ -37,6 +37,20 @@ ol, ul {
 	list-style: none;
 }
 
+.highlight{
+	background: #d3d3d3;
+	
+}
+
+.code-container{
+	background: #d3d3d3;
+	width: fit-content;
+	padding: 3%;
+	border: 1px #000 solid;
+	border-radius: 25px;
+}
+
+
 blockquote, q {
 	quotes: none;
 }
