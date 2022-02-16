@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Aditya Nagar</title>
+    <meta charset="utf-8" />
+	<link rel="icon" href="../assets/logo_file.png"/>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="../assets/css/main.css" />
+  </head>
+  <body class="single is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper">
+      <!-- Header -->
+      <header id="header">
+        <h1><a href="../index.html">Aditya Nagar</a></h1>
+        <nav class="links">
+          <ul>
+            <li><a href="#">New Articles</a></li>
+            <li><a href="#">Contact Me</a></li>
+            <li><a href="#">About Me</a></li>
+            <li><a href="#">My Works</a></li>
+          </ul>
+        </nav>
+        <nav class="main">
+          <ul>
+            <li class="search">
+              <a class="fa-search" href="#search">Search</a>
+              <form id="search" method="get" action="#">
+                <input type="text" name="query" placeholder="Search" />
+              </form>
+            </li>
+            <li class="menu">
+              <a class="fa-bars" href="#menu">Menu</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <!-- Menu -->
+      <section id="menu">
+        <!-- Search -->
+        <section>
+          <form class="search" method="get" action="#">
+            <input type="text" name="query" placeholder="Search" />
+          </form>
+        </section>
+
+        <!-- Links -->
+        <section>
+          <ul class="links">
+            <li>
+              <a href="#">
+                <h3>Basics of Cryptography!</h3>
+                <p>Lesson 1 of Cryptography</p>
+              </a>
+            </li>
+          </ul>
+        </section>
+
+        <!-- Actions -->
+        <section>
+          <ul class="actions stacked">
+            <li><a href="#" class="button large fit">Log In</a></li>
+          </ul>
+        </section>
+      </section>
+
+      <!-- Main -->
+      <div id="main">
+        <!-- Post -->
+        <article class="post">
+          <header>
+            <div class="title">
+              <h2><a href="">Basics of Cryptography! </a></h2>
+              <p>Lesson 1 of Cryptography</p>
+            </div>
+            <div class="meta">
+              <time class="published" datetime="2021-08-25"
+                >August 25, 2021</time
+              >
+              <a href="#" class="author"
+                ><span class="name">Aditya Nagar</span
+                ><img src="images/avatar.jpg" alt=""
+              /></a>
+            </div>
+          </header>
+          <p>
+           This is lesson 1 out of I don't know how many that will hopefully help you (and me) to learn and master(hopefully!) Cryptography. This paragraph is mostly about my goals with this thread and my introduction so if you just want to get to the actual content, it is in the next paragraph. 
+          </p>
+          <p>
+           Cryptography is the practice and study of techniques for secure communication. In simple words, It is about constructing rules(protocols) that prevents third parties from reading the messages.
+
+           Now, I’m going to take help of an example to explain <strong>What is Cryptography and why do we need it?</strong>
+
+          Let's say you want to go out on a date with a girl. So you think of sending her a message stating the location and the time of your date. But then you realize that what if your friend gets the message and ruin your plan.
+          So how can You be sure that nobody in the middle could access the message sent? That’s where <strong>Encryption or Cryptography</strong> comes in. 
+          </p>
+          <h3>What is Cryptography?</h3>
+          <p>As I mentioned earlier, Crytography is the practice to secure communication.</p>
+          <p>Using the previous example, let's encrypt your message! So, let's first convert your readable message to some random numbers and characters. But we cannot just randomly to that because then the receiver will have noway to decrypt your message. So here we use a <strong>KEY</strong>. After using a key to emcrypt your message what we get is a <strong>Cipher Text</strong>.</p>
+          <p>Now you can safely send your message, knowing only people with the right "key" can decrypt your message!</p>
+          <p>Now, The receiver would need a key to decrypt the message to recover the original plaintext.</p>
+
+          <p>Based on the number of keys, Cryptography is broadly classified into two categories, <strong>Symmetric Key</strong> and <strong>Asymmetric Key</strong> (popularly known as public key cryptography)</p>
+          <footer>
+            <ul class="stats">
+              <li><a href="#">Lesson 1</a></li>
+              <li><a href="#" class="icon solid fa-heart">0</a></li>
+              <li><a href="#" class="icon solid fa-comment">0</a></li>
+            </ul>
+          </footer>
+        </article>
+      </div>
+
+      <!-- Footer -->
+      <section id="footer">
+        <ul class="icons">
+          <li>
+            <a href="#" class="icon brands fa-twitter"
+              ><span class="label">Twitter</span></a
+            >
+          </li>
+          <li>
+            <a href="#" class="icon brands fa-facebook-f"
+              ><span class="label">Facebook</span></a
+            >
+          </li>
+          <li>
+            <a href="#" class="icon brands fa-instagram"
+              ><span class="label">Instagram</span></a
+            >
+          </li>
+          <li>
+            <a href="#" class="icon solid fa-rss"
+              ><span class="label">RSS</span></a
+            >
+          </li>
+          <li>
+            <a href="#" class="icon solid fa-envelope"
+              ><span class="label">Email</span></a
+            >
+          </li>
+        </ul>
+        <p class="copyright">
+          &copy; Untitled. Design: <a href="http://html5up.net">HTML5 UP</a>.
+          Images: <a href="http://unsplash.com">Unsplash</a>.
+        </p>
+      </section>
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
